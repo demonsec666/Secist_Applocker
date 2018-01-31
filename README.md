@@ -1,6 +1,51 @@
-## POC
+## 敬告(Notice):
++ 不合理使用此脚本所提供的功能而造成的任何直接或者间接的后果及损失，  均由使用者本人负责，即刻安全以及创作者不为此承担任何责任。
+ </br>Any direct or indirect consequences and losses arising from the abuse of the featuress provided by those scripts are due to the user himself, <b>[secist](www.secist.com)</b> and the author does not accept any responsibility.
+ 
+ 
+
+## 安装和使用（Installation && Usage）：
+```
+-c, --csc:            <path>    Example:  Secist_Attack.exe -c |or  --csc C:\Users\demon\secist.cs |and run secist.exe
+-C, --cscript:        <path>    Example:  Secist_Attack.exe -C |or  --cscript  C:\Users\demon\Payload\secist.txt
+-m, --msbuild:        <path>    Example:  Secist_Attack.exe -m |or  --msbuild  C:\Users\demon\Payload\secist.csproj
+-i, --cl_invocation:  <Command> Example:  Secist_Attack.exe -i |or  --cl_invocation  calc.exe
+                                                                  Secist_Attack.exe -i "powershell.exe  calc"
+-p, --pcalua:         <APP>     Example:  Secist_Attack.exe -p |or  --pcalua  calc.exe
+-l, --control:        <DLL>     Example:  Secist_Attack.exe -l |or  --control C:\Users\demon\example\runcalc.dll
+-A, --Applocker:      <shell>   Example:  Secist_Attack.exe -A |or  --Applocker
+-h, --help:           <help>    Example:  Secist_Attack.exe -h |or  --help     <show help>
+```	
+
+## 作者（About Us）：
+```
+Who am I?
+
+Hi there, I'm Demon. I have an interest in technology, both development of applications as well as systems administrations -- focussing mostly on Linux and everything open source.
+
+About my team
+
+secist(http://www.secis.com) is a volunteer group focused on promoting writers and their writing in a professional way, across different social media platforms for free.We provide a platform for those with a story to tell, knowledge to share, or an experience that we can all learn from. 
+
+If you are a new or emerging writer, work with us to raise your profile, polish your articles and present your work in the best possible light.
+
+I will always remember something my father told me, “you have to help enough other people get what they want first, before you can get what you want out of life”.
+
+Join us! Support secist in championing the work of others.
+
+Contact
+
+I'm best contacted through e-mail, at 1955270830@qq.com.Also welcome you to join our discussion group through QQ,account number 307283889.
+
+You can ask me technological questions, but please don't be mad if I don't reply: I tend get a lot of e-mail. I do my best to respond to all of them -- but that doesn't always work. If I don't respond in time, feel free to send a reminder.
+```
 
 
+## 视频(vedio):
+
+
+
+## POC：
 
 ## 1.csc.exe
 ``` tex
@@ -241,5 +286,7 @@ Tracker.exe /d runcalc.dll /c cmd
 
 link https://twitter.com/Sudhanshu_C/status/943011972261412864
 https://twitter.com/subTee/status/793151392185589760
+
+
 
 

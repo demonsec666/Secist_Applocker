@@ -378,3 +378,14 @@ https://oddvar.moe/2018/01/14/putting-data-in-alternate-data-streams-and-how-to-
 LINK:
 https://github.com/milkdevil/UltimateAppLockerByPassList
 
+
+
+## 作者（About Us）
+
++ 即刻安全(Secist Sec)
+    + ----> [Demon](www.ggsec.cn)
+   ## 作者（About Us）
+
++即刻安全纯技术交流群：307283889
+
+

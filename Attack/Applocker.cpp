@@ -18,15 +18,15 @@ string GetProgramDir()
 }
 
 Applocker::Applocker()
-{
+{	
 	CreateDirectory(TEXT("output"), NULL);//创建output空目录
 	system("cls");
 	cout << "			 /==========================########=========================\\  \n\
 			 |               #MY Blog: www.ggsec.cn#                     |  \n\
 	    	         |  	        #Windows AppLocker ByPass#                   |  \n\
-			 |           即刻安全周年庆版v1.0 | Demon 2017.7.14  |	\n\
+			 |          Secist Anniversary Editionvv1.0 | Demon 2017.7.14|	\n\
 			 \\===========================================================/  \n " << endl;
-	cout << "					Windows AppLocker ByPass | Demon-secist   \n\n\
+	cout << "			           Windows AppLocker ByPass | Demon-secist   \n\n\
 			  1. .Net_c#_calc                    11. Mxsl demo.xml exec.xsl |calc\n \
 	                  2. CScript_calc                    12. Msxsl.exe  |Calc\n \
 	                  3. MSbuild_calc                    13. Control.exe  |  Calc\n \
@@ -36,9 +36,8 @@ Applocker::Applocker()
 	                  7. pcalua |Calc   \n \
 	                  8. MSBuild-Csi.exe | Calc  \n \
 	                  9.  exit   \n \
-	                  10. About Me \n \
-	                           请输入选项 >" << flush;
-
+	                  10. About Me \n\n\
+	                           secist > " << flush;
 
 
 	int value;

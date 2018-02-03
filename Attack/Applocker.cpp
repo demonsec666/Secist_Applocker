@@ -24,7 +24,7 @@ Applocker::Applocker()
 	cout << "			 /==========================########=========================\\  \n\
 			 |               #MY Blog: www.ggsec.cn#                     |  \n\
 	    	         |  	        #Windows AppLocker ByPass#                   |  \n\
-			 |          Secist Anniversary Editionvv1.0 | Demon 2017.7.14|	\n\
+			 |          Secist Anniversary Edition v1.0 | Demon 2017.7.14|	\n\
 			 \\===========================================================/  \n " << endl;
 	cout << "			           Windows AppLocker ByPass | Demon-secist   \n\n\
 			  1. .Net_c#_calc                    11. Mxsl demo.xml exec.xsl |calc\n \

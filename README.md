@@ -383,7 +383,8 @@ https://github.com/milkdevil/UltimateAppLockerByPassList
 ## 作者（About Us）
 
 + 即刻安全(Secist Sec)
-    + ----> [Demon](www.ggsec.cn)
+   www.ggsec.cn
+   www.secist.com
    ## 作者（About Us）
 
 +即刻安全纯技术交流群：307283889
